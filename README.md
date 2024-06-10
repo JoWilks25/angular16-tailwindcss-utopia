@@ -29,4 +29,48 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Styling
 Uses Tailwind with Utopia
 https://tailwindcss.com/docs/guides/angular
+
 https://github.com/domchristie/tailwind-utopia
+
+### Typographic Scale
+The default font-size utility classes are as follows:\
+```
+text-fl-xs
+text-fl-sm
+text-fl-base
+text-fl-lg
+text-fl-xl
+text-fl-2xl
+text-fl-3xl
+text-fl-4xl
+```
+
+### Spacing Scale
+The default spacing utility classes are as follows:
+```
+<utility>-fl-3xs
+<utility>-fl-2xs
+<utility>-fl-xs
+<utility>-fl-sm
+<utility>-fl-md
+<utility>-fl-lg
+<utility>-fl-xl
+<utility>-fl-2xl
+<utility>-fl-3xl
+```
+
+These work with any utility classes that depend on the the spacing configuration, i.e. padding, margin, width, height, maxHeight, gap, inset, space, translate, scrollMargin, and scrollPadding.
+
+Examples:
+```
+m-fl-lg
+gap-fl-3xs
+-space-x-fl-sm
+```
+
+Space Value Pairs
+Utilities will be generated for any space value pairs. Separate t-shirt sizes with a -. Examples:
+```
+pt-fl-3xs-2xs // single step
+m-fl-sm-lg // sm - lg step
+```
