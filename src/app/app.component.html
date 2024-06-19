@@ -8,4 +8,6 @@
 </div>
 <div class="m-fl-lg flex justify-center">
   <dropdown></dropdown>
+  <button (click)="toggleModal()">Show Modal</button>
+  <modal [showModal]="showModal" (toggleModal)="toggleModal()"></modal>
 </div>
