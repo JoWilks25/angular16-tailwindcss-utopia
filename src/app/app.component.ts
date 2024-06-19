@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Boiler-plate App';
+  showModal: boolean = false;
+
+  toggleModal() {
+    this.showModal = !this.showModal;
+  }
 }
